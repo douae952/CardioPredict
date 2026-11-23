@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from xgboost import XGBClassifier
 
 # Charger les données nettoyées
-df = pd.read_csv("cardio_clean.csv")
+df = pd.read_csv("cardio_clean_age_int.csv")
 
 # Séparer les variables
 X = df.drop("cardio", axis=1)
